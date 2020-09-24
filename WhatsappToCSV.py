@@ -11,7 +11,7 @@ import os
 import pandas as pd
 import re
 
-chatfile = r"...\chat.txt" 
+chatfile = r"C:\Users\Rumay-Paz\Desktop\Programming\WhatsappToCSV\WhatsApp Chat with 【_L u n  ｗ ａ ｖ ｅ 】.txt" 
 filename = (os.path.basename(chatfile)).split('.')[0]
 
 # From a .txt file econded as utf8, build a pandas dataframe and use line jumps regex as separator - do not stop at lines that could not be parsed: 
